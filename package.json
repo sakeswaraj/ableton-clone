@@ -1,0 +1,22 @@
+{
+  "name": "ableton-clone",
+  "version": "1.0.0",
+  "description": "clone of ableton website",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass":"node-sass ./sass/main.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakeswaraj/ableton-clone.git"
+  },
+  "author": "sake swaraj , arunraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakeswaraj/ableton-clone/issues"
+  },
+  "homepage": "https://github.com/sakeswaraj/ableton-clone#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

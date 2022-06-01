@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  /*16 px === 1 rem 
+  this sets the 1rem===10px
+  */
+}
+
+body {
+  font-weight: 400;
+ font-size: 1rem;
+}
