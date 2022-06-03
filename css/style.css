@@ -14,3 +14,42 @@ html {
 body {
   font-weight: 400;
   font-size: 1rem; }
+
+.text-color-orange {
+  color: #ff764d !important; }
+
+.text-color-blue {
+  color: #0000ff !important; }
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 6rem;
+  width: 100%;
+  padding: 0.5rem 3rem; }
+  .navigation__logo {
+    padding: 0 3rem;
+    width: 10%; }
+    .navigation__logo--link {
+      display: inline-block; }
+      .navigation__logo--link svg {
+        width: 5.75rem;
+        height: 2.75rem; }
+  .navigation__menu {
+    width: 90%;
+    display: flex;
+    justify-content: space-between; }
+    .navigation__menu--right {
+      background-color: red;
+      border: 2px solid black; }
+    .navigation__menu--items {
+      list-style: none;
+      display: inline-block;
+      font-size: 2rem; }
+      .navigation__menu--items:not(:last-child) {
+        margin-right: 2rem; }
+      .navigation__menu--items .material-symbols-outlined {
+        color: inherit;
+        font-size: 18px;
+        font-weight: 900; }

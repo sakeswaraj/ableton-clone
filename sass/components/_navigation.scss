@@ -1,0 +1,46 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 6rem;
+  width: 100%;
+  padding: 0.5rem 3rem;
+
+  &__logo {
+    padding: 0 3rem;
+    width: 10%;
+    &--link {
+      display: inline-block;
+      svg {
+        width: 5.75rem;
+        height: 2.75rem;
+      }
+    }
+  }
+
+  &__menu {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+    &--right {
+      background-color: red;
+      border: 2px solid black;
+    }
+
+    &--items {
+      list-style: none;
+      display: inline-block;
+      font-size: 2rem;
+      &:not(:last-child) {
+        margin-right: 2rem;
+      }
+
+      .material-symbols-outlined {
+        color: inherit;
+        font-size: 18px;
+        font-weight: 900;
+      }
+    }
+  }
+}
