@@ -1,0 +1,49 @@
+.header {
+  padding: 3rem 7rem;
+  &__menu {
+    ul {
+      li {
+        list-style: none;
+        display: inline-block;
+        font-size: 1.5rem;
+        color: black;
+        &:not(:last-child) {
+          margin-right: 6rem;
+        }
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+    }
+  }
+  &__logo {
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 3rem;
+    position: relative;
+    &--image {
+      height: 100%;
+      width: 100%;
+      display: block;
+      background-size: cover;
+      background-position: center;
+    }
+    &--text{
+        font-size: 15rem;
+        color:$color-orange;
+        position: absolute;
+        letter-spacing: 1rem;
+        top:40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        font-family: 'Joan', serif;
+
+}
+  }
+}

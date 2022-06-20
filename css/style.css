@@ -13,7 +13,9 @@ html {
 
 body {
   font-weight: 400;
-  font-size: 1rem; }
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-family: "Red Hat Display", sans-serif; }
 
 .text-color-orange {
   color: #ff764d !important; }
@@ -27,7 +29,8 @@ body {
   align-items: center;
   height: 6rem;
   width: 100%;
-  padding: 0.5rem 3rem; }
+  padding: 0.5rem 3rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4); }
   .navigation__logo {
     padding: 0 3rem;
     width: 10%; }
@@ -53,3 +56,41 @@ body {
         color: inherit;
         font-size: 18px;
         font-weight: 900; }
+
+.header {
+  padding: 3rem 7rem; }
+  .header__menu ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: black; }
+    .header__menu ul li:not(:last-child) {
+      margin-right: 6rem; }
+    .header__menu ul li a {
+      text-decoration: none;
+      color: inherit; }
+  .header__logo {
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 3rem;
+    position: relative; }
+    .header__logo--image {
+      height: 100%;
+      width: 100%;
+      display: block;
+      background-size: cover;
+      background-position: center; }
+    .header__logo--text {
+      font-size: 15rem;
+      color: #ff764d;
+      position: absolute;
+      letter-spacing: 1rem;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      font-family: 'Joan', serif; }
